@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #fcc000;
+}
+
+body {
+    background: rgb(151, 151, 151);
+}
+
+main {
+    background: white;
+    margin: 3px 9vw;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 0px 2px rgba(0,0,0,.5);
+    /* border-left-color: 2px solid black; */
+    padding-bottom: 15vh;
+}
+
+.tittle {
+    padding: 10vh;
+    text-align: center;
+    font-size: 25px;
+}
+
+.firstTittle {
+    margin-bottom: 4vh;
+    text-transform: uppercase;
+}
+
+.secondTittle {
+    font-style: italic;
+}
+
+#division {
+    margin: 0px auto;
+    height: 1px;
+    width: 80vw;
+    background-color: black;
+}
+
+#news {
+    margin-top: 15vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    transition: 0s;
+    padding: 10px;
+}
+
+#news:hover {
+    background: rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+#news img {
+    width: 25%;
+    margin-right: 2vw;
+}
+
+#newsTittle {
+    font-weight: bold;
+    margin-bottom: 1vh;
+
+}
+
+#newsPreview {
+    margin-top: 4vh;
+    margin-right: 20vw;
+    text-align: justify;
+    font-size: 15px;
+}
+
+#create {
+    margin-top: 5vh;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#date {
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+.logo img {
+    position: absolute;
+    width: 10%;
+    top: 1px;
+    left: 8vw;
+}
+
+footer {
+    margin-top: 5vh;
+}

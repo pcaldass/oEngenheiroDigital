@@ -1,0 +1,74 @@
+*{
+    font-family: 'montserrat', sans-serif;
+}
+
+:root {
+    --primary-color: #FCC000;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+.contact .label {
+    font-family: 'montserrat', sans-serif
+}
+
+.textContact {
+    color: black;
+}
+
+.fone {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.fone1 a{
+    display: flex;
+    margin-top: 1vh;
+    color: black;
+    transition: 0.3s;
+}
+
+.fone1 i {
+    color: black;
+    margin-right: 5px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.fone1 p {
+    color: black;
+    transition: 0.3s;
+}
+
+.fone1 a, p, i:hover {
+    color: var(--primary-color);
+}
+
+.fone1 p:hover {
+    color: var(--primary-color);
+}
+
+textarea {
+    margin-bottom: 5vh;
+}
+
+#button {
+    background: var(--primary-color);
+    transition: 0.3s;
+}
+
+#button:hover {
+    background:rgb(180, 109, 3);
+}
+
+
+.textFooter {
+    color: white;
+}
+
+.footerBotton p {
+    color: white;
+}
